@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* General Theme */
+.bg-dark {
+  background-color: #121212; /* Unified dark background */
+}
+
+.bg-card {
+  background-color: #1f1f1f; /* Card background for uniformity */
+}
+
+.text-primary {
+  color: #f39c12; /* Primary text color */
+}
+
+.text-white {
+  color: #ffffff; /* White text */
+}
+
+.text-dark {
+  color: #121212; /* Dark text for contrast */
+}
+
+.bg-primary {
+  background-color: #f39c12; /* Button or highlight background */
+}
+
+.hover\:bg-light-primary:hover {
+  background-color: #f1c40f; /* Lighter hover color for primary elements */
+}
+
+.rounded {
+  border-radius: 0.5rem; /* Standard border radius for rounded elements */
+}
+
+.hover\:underline:hover {
+  text-decoration: underline; /* Hover effect for links */
+}
+
+.hover\:transform {
+  transition: transform 0.3s ease-in-out; /* Smooth transform effect */
+}
+
+.hover\:scale-105:hover {
+  transform: scale(1.05); /* Scale on hover for cards or buttons */
+}
